@@ -1,12 +1,11 @@
 # ASPCore.BlazorDemo
 
-In this article, we will understand Blazor and setup Blazor development environment in our machine and execute our first program in ASP.NET core using Blazor and Visual Studio 2019. We will also create a sample calculator application using Blazor.
-
+A Blazor webassembly calculator app, revitalized with a TDD strategy
 
 # Demo
 
 ![Alt Text](https://github.com/AnkitSharma-007/ASPCore.BlazorDemo/blob/master/Output/BlazorCalculator.gif)
 
 
-# Read the full article at
+# See article for original source code and documentation: 
 http://ankitsharmablogs.com/asp-net-core-getting-started-with-blazor/

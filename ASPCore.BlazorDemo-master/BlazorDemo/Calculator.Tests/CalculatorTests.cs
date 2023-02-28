@@ -100,6 +100,21 @@ public class CalculatorTests : TestContext
         AssertFieldInputs(firstInput, secondInput, expectedResult, calculatorComponent);
     }
 
+    [Theory,ClassData(typeof(CalculatorData))]
+    public void Add_Test_With_ClassData(int firstInput, int secondInput, string expectedResult)
+    {
+        // Arrange
+        IRenderedComponent<BlazorDemo.Pages.Calculator> calculatorComponent = InitializeFieldInputs(firstInput, secondInput);
+        var addButton = GetHtmlElement(calculatorComponent, "button", ADDBUTTON_ID);
+
+        // Act
+        addButton.Click();
+
+        // Assert
+        calculatorComponent.Render();
+        AssertFieldInputs(firstInput, secondInput, expectedResult, calculatorComponent);
+    }
+
     public static IEnumerable<object[]> getCalculatorInputs()
     {
         var objects = new List<object[]>

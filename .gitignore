@@ -349,3 +349,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Rider
+*.idea/
+specflow-stuff/.idea/.idea.fun-with-specflow/.idea/vcs.xml
+specflow-stuff/.idea/.idea.fun-with-specflow/.idea/indexLayout.xml
+specflow-stuff/.idea/.idea.fun-with-specflow/.idea/encodings.xml
+specflow-stuff/.idea/.idea.fun-with-specflow/.idea/vcs.xml
+specflow-stuff/.idea/.idea.fun-with-specflow/.idea/indexLayout.xml
+specflow-stuff/.idea/.idea.fun-with-specflow/.idea/encodings.xml
